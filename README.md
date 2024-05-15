@@ -82,6 +82,19 @@
 
 ![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/c6325c94-f56f-4b69-a1c9-9e8102233804)
 
+#### Reading Placement.def into magic
+
+![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/cfee7fba-d4a9-49f4-bb6d-bb2ee42b4bcd)
+
+![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/203bbc7a-6607-417a-94b6-72c2aab9b7e6)
+
+#### Zoom on magic view showing placement of standard cells
+
+![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/0bbb6bb0-bff5-4025-98ba-1bceaaa2fba4)
+
+
+
+
 
 
 
