@@ -60,6 +60,11 @@
 
 ![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/a4814720-51f2-4eea-a20d-9bdd5a2de7f2)
 
+#### 
+
+![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/2d2f706f-cce1-4ff7-ba5a-130caa28e2f9)
+
+
 
 
 
