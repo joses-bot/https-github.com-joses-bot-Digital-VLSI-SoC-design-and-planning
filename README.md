@@ -66,6 +66,17 @@
 
 #### Layout using MAGIC
 
+#### Invoking magic: 
+####  magic -T /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.lef def read picorv32a.floorplan.def &
+
+![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/95f7fd0b-3edd-4b80-80a1-d5a7cc38f0a4)
+
+![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/f8fa8ca6-d75c-48d4-a359-82a268d77ab7)
+
+
+
+
+
 
 
 
