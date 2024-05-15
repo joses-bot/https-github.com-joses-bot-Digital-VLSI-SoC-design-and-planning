@@ -19,9 +19,9 @@
 
 #### OpenLane invokes the following
 
-    *Yosys - RTL Synthesis and maps to yosys generic cells
-    *abc - Technology mapping with the Skywater130 PDK
-    *OpenSTA - This does the Static Timing Analysis on the netlist generated after synthesis
+    - Yosys - RTL Synthesis and maps to yosys generic cells
+    - abc - Technology mapping with the Skywater130 PDK
+    - OpenSTA - This does the Static Timing Analysis on the netlist generated after synthesis
     
 ![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/c8cdfd5a-183f-41d2-a5e1-eb9dc007d620)
 
