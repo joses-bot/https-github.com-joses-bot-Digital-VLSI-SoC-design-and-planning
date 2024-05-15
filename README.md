@@ -14,3 +14,7 @@
 #### Files Generated
 
 ![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/48b63560-92b0-4168-969a-76a9e9b88a5a)
+
+#### Issuing command run_synthesis 
+![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/c8cdfd5a-183f-41d2-a5e1-eb9dc007d620)
+
