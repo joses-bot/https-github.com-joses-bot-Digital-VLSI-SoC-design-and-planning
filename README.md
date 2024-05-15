@@ -73,6 +73,9 @@
 
 ![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/f8fa8ca6-d75c-48d4-a359-82a268d77ab7)
 
+![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/a3106ddd-0df0-40b7-a3c0-56676752afd0)
+
+
 
 
 
