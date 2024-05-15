@@ -7,3 +7,6 @@
 
 ![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/d9057f8a-8e40-4e00-aeb1-0f19f5176c26)
 
+### Preparing the design to use picorv32a
+
+![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/0241eea7-cef5-421a-8719-85e4187031b7)
