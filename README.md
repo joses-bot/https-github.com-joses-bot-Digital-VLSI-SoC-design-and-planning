@@ -75,6 +75,11 @@
 
 ![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/a3106ddd-0df0-40b7-a3c0-56676752afd0)
 
+#### Placement  %run_placement
+
+![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/c6325c94-f56f-4b69-a1c9-9e8102233804)
+
+
 
 
 
