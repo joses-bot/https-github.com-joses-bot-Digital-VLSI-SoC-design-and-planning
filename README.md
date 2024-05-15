@@ -56,6 +56,11 @@
 
 ![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/e9b3ca30-0170-4640-8c21-cf04129ba8ca)
 
+#### results after floorplan picorv32a.floorplan.def generated
+
+![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/a4814720-51f2-4eea-a20d-9bdd5a2de7f2)
+
+
 
 
 
