@@ -42,7 +42,10 @@
     The flop ratio is defined as the ratio of the number of flops to the total number of cells
     Here flop ratio is 1613/14876 = 0.1084 (10.8%) 
 
+#### Chip area module 147712.918400
 
+![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/8a8edff8-4f4e-4717-8699-b56f78d1d177)
 
+![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/b4bb13fd-ccd5-4e3f-a582-1317eb7d9ba6)
 
 
