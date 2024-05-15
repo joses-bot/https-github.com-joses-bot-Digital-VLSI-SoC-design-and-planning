@@ -48,4 +48,9 @@
 
 ![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/b4bb13fd-ccd5-4e3f-a582-1317eb7d9ba6)
 
+#### picorv32a  config.tcl
+
+![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/e550c7cc-490e-4f19-81d6-37925d6b8981)
+
+
 
