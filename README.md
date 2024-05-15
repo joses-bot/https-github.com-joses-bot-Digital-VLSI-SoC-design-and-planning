@@ -37,6 +37,12 @@
     - total negative slack = -759.46
     - worst negative slack = -24.89
 
+#### Utilisation Factor  [From the synthesis statistics]
+
+    The flop ratio is defined as the ratio of the number of flops to the total number of cells
+    Here flop ratio is 1613/14876 = 0.1084 (10.8%) 
+
+
 
 
 
