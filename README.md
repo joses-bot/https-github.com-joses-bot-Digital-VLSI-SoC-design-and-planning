@@ -1,1 +1,1 @@
-# https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning
+Digital-VLSI_SoC-VSD
