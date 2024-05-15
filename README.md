@@ -28,4 +28,15 @@
 #### View Synthesis statistics
 ![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/54ba3345-8de9-43c6-9d06-b9ce96074a6b)
 
+#### Report Folder created
+
+![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/48a9ad00-c149-411e-a26a-0676b82f71fc)
+
+#### The openSTA tool generated the timing reports.
+
+    - total negative slack = -759.46
+    - worst negative slack = -24.89
+
+
+
 
