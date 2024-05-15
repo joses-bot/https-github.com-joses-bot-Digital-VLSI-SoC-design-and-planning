@@ -62,6 +62,9 @@
 
 #### results after floorplan picorv32a.floorplan.def generated
 
+![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/11d88816-87b9-4cb7-8ea5-c79a94aebca5)
+
+
 
 
 
