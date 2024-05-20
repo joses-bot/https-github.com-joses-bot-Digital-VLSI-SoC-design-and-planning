@@ -135,6 +135,11 @@ plot out vs in
 
 ![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/dd97e46b-1da0-4e46-a664-dc74dbad56f3)
 
+#### Case W/L = 3 In the middle point 1.25v 148ps (rise time)  71ps (fall time)  vm = 1.2
+
+![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/a5649d12-c083-4ed9-991c-d2c5f1e1d26f)
+
+
 #### Downloading the inverter from github  https://github.com/nickson-jose/vsdstdcelldesign (showing magic tech file)
 
 ![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/a754a6c1-b3ec-48b8-96f9-52db2247a387)
