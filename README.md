@@ -92,6 +92,31 @@
 
 ![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/0bbb6bb0-bff5-4025-98ba-1bceaaa2fba4)
 
+#### Design library cell using Magic Layout and ngspice characterization
+#### BASIC CMOS PN INVERTER
+
+Component connectivity
+Component values
+Identify modes
+
+![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/5af31a19-806a-471f-ae04-603790165a11)
+
+![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/e0ecda95-8900-4ab1-8754-a19b2c051d8d)
+
+![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/7e85f712-27e6-4a33-a2a8-9599ecac5dc0)
+
+![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/28e407a6-dcd1-41b8-99b7-f1e89f7cbbee)
+
+#### Downloading the inverter from github  https://github.com/nickson-jose/vsdstdcelldesign (showing magic tech file)
+
+![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/a754a6c1-b3ec-48b8-96f9-52db2247a387)
+
+
+
+
+
+
+
 
 
 
