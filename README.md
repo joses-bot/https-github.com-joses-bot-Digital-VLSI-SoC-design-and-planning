@@ -121,10 +121,19 @@ plot out vs in
 
 #### Changing the pmos W=0.9375u
 
-#### Switching threshold  vth = 0.98v  vth = 1.2v
+#### Switching threshold  vth = 0.98v  vth = 1.2v  (vgs=Vds)
 
 ![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/437f1e8e-04b9-4d40-a9c5-6b0fd407f5e5)
 
+#### Calculation of rise/fall time  SPICE transient analysis
+
+![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/d73c2d43-2e30-48e8-87b1-dea15845865a)
+
+![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/a38b0625-f3c3-46e5-8d02-84ea076ef21f)
+
+#### In the middle point 1.25v 148ps (rise time)  71ps (fall time)
+
+![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/dd97e46b-1da0-4e46-a664-dc74dbad56f3)
 
 #### Downloading the inverter from github  https://github.com/nickson-jose/vsdstdcelldesign (showing magic tech file)
 
