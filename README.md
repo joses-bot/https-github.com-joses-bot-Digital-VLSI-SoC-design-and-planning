@@ -131,7 +131,7 @@ plot out vs in
 
 ![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/a38b0625-f3c3-46e5-8d02-84ea076ef21f)
 
-#### In the middle point 1.25v 148ps (rise time)  71ps (fall time)
+#### Case W/L = 1 In the middle point 1.25v 148ps (rise time)  71ps (fall time)  vm = 0.99
 
 ![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/dd97e46b-1da0-4e46-a664-dc74dbad56f3)
 
