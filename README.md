@@ -111,6 +111,17 @@ Identify modes
 
 ![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/a754a6c1-b3ec-48b8-96f9-52db2247a387)
 
+#### Selecting layers
+
+![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/5d9cb0f1-3c2d-4efb-858c-c88517ffb9ea)
+
+![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/6c4909b9-c967-40eb-91cb-5cbe3bc253b8)
+
+![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/00b65ed3-5079-4e6e-8813-4b5028f5658b)
+
+
+
+
 
 
 
