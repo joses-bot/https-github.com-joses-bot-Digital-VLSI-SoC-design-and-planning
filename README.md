@@ -107,6 +107,25 @@ Identify modes
 
 ![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/28e407a6-dcd1-41b8-99b7-f1e89f7cbbee)
 
+#### SPICE commands:
+
+source [filename].cir
+run
+setplot 
+dc1 
+plot out vs in 
+
+![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/a0a055be-7891-427e-9f2b-4bc1ef7f3da8)
+
+![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/897e7638-d6e0-4a27-94fd-8bc7eda38dd5)
+
+#### Changing the pmos W=0.9375u
+
+#### Switching threshold  vth = 0.98v  vth = 1.2v
+
+![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/437f1e8e-04b9-4d40-a9c5-6b0fd407f5e5)
+
+
 #### Downloading the inverter from github  https://github.com/nickson-jose/vsdstdcelldesign (showing magic tech file)
 
 ![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/a754a6c1-b3ec-48b8-96f9-52db2247a387)
