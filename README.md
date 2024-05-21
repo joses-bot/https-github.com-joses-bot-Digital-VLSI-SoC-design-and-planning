@@ -364,6 +364,30 @@ Goal is to reduce the clock skew and the clock crosstalk
 #### run_cts is located on /OpenLane/scripts/tcl_commands/cts.tcl, and it will OpenROAD and will run TritonCTS. Some parameters can be tweak to help meeting timing
 ![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/8ad7b0c5-efd9-4b4d-9023-204f351d2e6a)
 
+STA report for setup/hold analysis (example STA set up time report captured min/max path)
+
+![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/1857ce5c-6bae-4475-b207-e681bdc5b19e)
+
+Showing some comb delay on this path
+![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/a04f157b-75e8-4223-af70-f299fc621b7c)
+
+H-clocks strategy to reduce skew (get into the middle of the path where clocks are fan out and start adding interconnect clock routes). Adding clock buffers (repeaters) to improve the propagation delay from clock source to different destination points. Trying to mantaian a 0 skew between the launch FF and the capture FF
+
+![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/b06bc5d6-bbfd-44b6-ad0c-5c56cf45d087)
+
+Shield critical nets (because of routing limitation it is not possible to shield every net) to avoit crosstalk/glitch propagation. Shield will be tight to some fix voltage value to avoid bouncing
+
+![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/8d9dbeff-aedd-486f-a92e-b36325bf0651)
+
+
+
+
+
+
+
+
+
+
 
 
 
