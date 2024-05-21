@@ -233,11 +233,43 @@ Modifying spice model of inverter
 ![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/b9304678-38e5-464d-ad98-256f53baeca8)
 ![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/f564452d-835b-4a0a-adba-2c068a624fa1)
 
-Calculation rise time, cell rise delay
+Characterization of cell: Calculation rise time, cell rise delay
 
 ![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/1a0583d1-9dc6-4ab7-8fc7-cb30935251ef)
 
 rt = 0.0418ns  rdelay = 0.037ns
+
+#### introduction to Magic tool options and DRC rules
+Sky130 Gihub repository 
+https://github.com/google/skywater-pdk
+
+Get Lab files/unzip files for performing DRC corrections
+
+![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/579b6914-155e-4f6c-a991-6450a0ce636d)
+
+vi .magicrc
+![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/c8c263b0-3c43-4e27-84b5-44412e2303ba)
+
+invoking magic magic -d XR and open file met3.mag (Different layouts with different DRC rules are shown)
+![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/9821569e-58e7-4b60-bac6-a40e477eacd2)
+![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/2e9fbb44-2f3c-40db-a976-c3d2cf055e93)
+
+Poly error example
+
+![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/2aa9b616-e90e-451c-bb10-d69bef1bf21b)
+
+Fixing rule (addding rules for: spacing npres allpolynonres and spacing xhrpoly,uhrpoly,xpc allpolynonres)
+
+![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/78ac529c-212a-4a28-986f-af9bf8d7d248)
+
+
+
+
+
+
+
+
+
 
 
 
