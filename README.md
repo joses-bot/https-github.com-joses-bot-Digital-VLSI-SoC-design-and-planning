@@ -304,6 +304,9 @@ Modeling using tables the delays depending on the input/ouput capacitance load. 
 
 Changing strategy parameters to reduce timing slack
 
+![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/07d4decf-6281-4ce5-aeb8-953f1ca39c8b)
+
+
 Design seems to meet timing after changes:
 
 ![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/5141fd6b-766b-4dbe-8d21-8ec755cc38a2)
@@ -410,7 +413,6 @@ whole chip
 
 #### SPEF Extraction and GDSII Streaming
 
-Invoke post-routing STA with run_parasitics_sta
 
 The last stage will be to extract the GDSII file ready for fabrication. Invoke run_magic. That generates the GDSII file /results/signoff/picorv32.gds. 
 
