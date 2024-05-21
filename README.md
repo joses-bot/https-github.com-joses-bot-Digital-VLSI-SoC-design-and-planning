@@ -412,7 +412,7 @@ whole chip
 
 Invoke post-routing STA with run_parasitics_sta
 
-The last stage will be to extract the GDSII file ready for fabrication. Invoke run run_magic. That generates the GDSII file /results/signoff/picorv32.gds. 
+The last stage will be to extract the GDSII file ready for fabrication. Invoke run_magic. That generates the GDSII file /results/signoff/picorv32.gds. 
 
 ![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/186302ed-749c-40ca-8e4d-8d99d1f28716)
 
