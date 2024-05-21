@@ -364,6 +364,11 @@ Goal is to reduce the clock skew and the clock crosstalk
 #### run_cts is located on /OpenLane/scripts/tcl_commands/cts.tcl, and it will OpenROAD and will run TritonCTS. Some parameters can be tweak to help meeting timing
 ![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/8ad7b0c5-efd9-4b4d-9023-204f351d2e6a)
 
+after running CTS a new syn files is created wich contains clock buffers
+
+![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/fae8820f-e290-4644-bd31-97e4d1bb314e)
+
+
 STA report for setup/hold analysis (example STA set up time report captured min/max path)
 
 ![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/1857ce5c-6bae-4475-b207-e681bdc5b19e)
@@ -378,6 +383,10 @@ H-clocks strategy to reduce skew (get into the middle of the path where clocks a
 Shield critical nets (because of routing limitation it is not possible to shield every net) to avoit crosstalk/glitch propagation. Shield will be tight to some fix voltage value to avoid bouncing
 
 ![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/8d9dbeff-aedd-486f-a92e-b36325bf0651)
+
+
+
+
 
 
 
