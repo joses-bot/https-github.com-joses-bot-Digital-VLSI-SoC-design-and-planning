@@ -385,6 +385,44 @@ after running CTS a new syn files is created wich contains clock buffers
 
 #### Final Steps for RTL2GDS using TritonRoute and OpenSTA
 
+Maze routing: Example from point 1 to point 2. Labeling from init points and start adding consecutive numbers to adjacent possible paths following the grid until the target is actually hit, then a numbers of paths will be formed following the consecutives label numbers. The best path among all the posible paths will be chosen (shortest path, e.g min number of bends). A bit time and memory consuming as it needs to check all different possibilities.
+
+![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/3062c632-aada-492e-bea9-63f213c786cf)
+![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/94ba1caa-058b-48cc-b6c2-a726ce280e23)
+
+
+Invoking run_routing
+
+Detail routing steps showing some Intermediate optimizations trying to reduce violations
+![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/c6030553-274b-46d9-b09a-3f55f6160b95)
+
+Routing finished and hopefully it looks like we are meeting timing
+
+![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/bcb07145-acd3-45f2-bd97-8d62bd0c80bd)
+
+A DEF file will be generated results/routing/picorv32.def Showing def file open using Magic: (highlighted the custom cell)
+
+![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/01a5c57f-9512-42f3-a62a-2698007d3367)
+![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/408507ee-d1f2-4736-af7a-f48df75a95c9)
+
+whole chip
+![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/bd4b48bd-4599-4da7-8b66-a2673953417a)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
