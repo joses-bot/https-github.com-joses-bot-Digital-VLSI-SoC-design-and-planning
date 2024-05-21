@@ -281,6 +281,10 @@ Renaming file to extract lef file from layout:  lef write (command)
 
 ![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/b5966b0a-84f6-4dc6-8b02-286f68777dfe)
 
+Dealing with timing libs and include new cell in synthesis modifying config.tcl
+
+
+
 
 
 
