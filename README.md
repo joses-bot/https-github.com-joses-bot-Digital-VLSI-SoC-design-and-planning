@@ -358,6 +358,21 @@ set_clock_transition 0.25 [get_clocks clk]  (rise & fall time)
 set_driving_cell -lib_cell sky130_fd_sc_hd__inv_2 -pin Y clk_master   (external driver)
 set_driving_cell -lib_cell sky130_fd_sc_hd__inv_4 -pin Y clk          (external driver)
 
+H-clocks strategy to reduce skew (get into the middle of the path where clocks are fan out and start adding interconnect clock routes). Adding clock buffers (repeaters) to improve the propagation delay from clock source to different destination points. Trying to mantaian a 0 skew between the launch FF and the capture FF
+
+![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/b06bc5d6-bbfd-44b6-ad0c-5c56cf45d087)
+
+Shield critical nets (because of routing limitation it is not possible to shield every net) to avoit crosstalk/glitch propagation. Shield will be tight to some fix voltage value to avoid bouncing
+
+![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/8d9dbeff-aedd-486f-a92e-b36325bf0651)
+
+STA report for setup/hold analysis (example STA set up time report captured min/max path)
+
+![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/1857ce5c-6bae-4475-b207-e681bdc5b19e)
+
+Showing some comb delay on this path
+![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/a04f157b-75e8-4223-af70-f299fc621b7c)
+
 #### Clock Tree Synthesis Process  (run_cts) after succesfully ran run_floorplan, run_placement
 Goal is to reduce the clock skew and the clock crosstalk
 
@@ -368,21 +383,10 @@ after running CTS a new syn files is created wich contains clock buffers
 
 ![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/fae8820f-e290-4644-bd31-97e4d1bb314e)
 
+#### Final Steps for RTL2GDS using TritonRoute and OpenSTA
 
-STA report for setup/hold analysis (example STA set up time report captured min/max path)
 
-![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/1857ce5c-6bae-4475-b207-e681bdc5b19e)
 
-Showing some comb delay on this path
-![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/a04f157b-75e8-4223-af70-f299fc621b7c)
-
-H-clocks strategy to reduce skew (get into the middle of the path where clocks are fan out and start adding interconnect clock routes). Adding clock buffers (repeaters) to improve the propagation delay from clock source to different destination points. Trying to mantaian a 0 skew between the launch FF and the capture FF
-
-![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/b06bc5d6-bbfd-44b6-ad0c-5c56cf45d087)
-
-Shield critical nets (because of routing limitation it is not possible to shield every net) to avoit crosstalk/glitch propagation. Shield will be tight to some fix voltage value to avoid bouncing
-
-![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/8d9dbeff-aedd-486f-a92e-b36325bf0651)
 
 
 
