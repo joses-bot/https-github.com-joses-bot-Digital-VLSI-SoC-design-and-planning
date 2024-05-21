@@ -332,7 +332,7 @@ New inverter added shows in def file after placement (def file and in magic)
 Basic framework consideredb- setup time (including uncertinty) Θ < T - S - SU
 ![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/4778cbae-8ffc-4cb9-9df5-be85b1dce8e8)
 
-Open STA commnads:
+#### Open STA commnads:
 
 report_net -connections _18666_
 replace_cell _18666_ sky130_fd_sc_hd__buf_4`
@@ -341,7 +341,7 @@ report_wns
 report_tns
 report_worst_slack -max
 
-SDC File commands:
+#### SDC File commands:
 
 create_clock clk  -name sys_clk  -period 20
 create_clock [get_ports clk]  -name sys_clk  -period 20  (another variant)
@@ -362,6 +362,10 @@ set_driving_cell -lib_cell sky130_fd_sc_hd__inv_4 -pin Y clk          (external 
 Goal is to reduce the clock skew and the clock crosstalk
 
 ![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/34a88ce3-7af4-4e6f-9d2f-9ef4ba5f7f1a)
+
+#### run_cts is located on /OpenLane/scripts/tcl_commands/cts.tcl, and it will OpenROAD and will run TritonCTS. Some parameters can be tweak to help meeting timing
+
+
 
 
 
