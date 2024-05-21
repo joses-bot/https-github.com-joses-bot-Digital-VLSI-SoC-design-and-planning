@@ -312,6 +312,13 @@ Area increased a bit but timing is better
 
 ![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/71a62416-9358-4df6-b03d-04ec4226ab06)
 
+run_floorplan gives an error. basic_macro_placement command is failing since EXTRA_LEFS variable was added in config.tcl and it is assumed as a macro but it is not. The work around is to comment call on basic_macro_placement inside script OpenLane/scripts/tcl_commands/floorplan.tcl (this is okay since we are not adding any macro to the design).
+
+![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/79ea5d6b-cfc3-4972-b17c-0d0dd924e3d8)
+
+
+
+
 
 
 
