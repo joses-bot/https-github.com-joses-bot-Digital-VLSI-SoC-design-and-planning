@@ -304,6 +304,18 @@ Modeling using tables the delays depending on the input/ouput capacitance load. 
 
 Changing strategy parameters to reduce timing slack
 
+Design seems to meet timing after changes:
+
+![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/5141fd6b-766b-4dbe-8d21-8ec755cc38a2)
+
+Area increased a bit but timing is better
+
+![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/71a62416-9358-4df6-b03d-04ec4226ab06)
+
+
+
+
+
 
 
 
