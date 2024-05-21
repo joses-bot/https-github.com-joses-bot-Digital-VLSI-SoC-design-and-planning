@@ -262,6 +262,32 @@ Fixing rule (addding rules for: spacing npres allpolynonres and spacing xhrpoly,
 
 ![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/78ac529c-212a-4a28-986f-af9bf8d7d248)
 
+More examples .....
+
+#### Pre-layout timing analysis and importance of good clock tree
+Guidance rules:
+When designing standard cells, the Input and output ports must lie on the intersection of the Vertical and Horizontal tracks.
+The width of the standard cell must be an odd multiple of the track pitch and the height of the standard cell should be an odd multiple of track vertical pitch.
+
+Layout is already done. Open the track file pdk/sky130/libs.tech /openlane/sky130_fd_sc_hd/track.info. Convert grid info to track info (used on routing)
+
+![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/b7d9aa48-3e9a-467e-8a05-a7cf3f58265a)
+Changing grid following track file
+![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/96611ea2-c569-4521-9794-ab3f559e2c57)
+
+Renaming file to extract lef file from layout:  lef write (command)
+
+![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/2676d383-61a3-4a98-9650-fc032b53a410)
+
+![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/b5966b0a-84f6-4dc6-8b02-286f68777dfe)
+
+
+
+
+
+
+
+
 
 
 
