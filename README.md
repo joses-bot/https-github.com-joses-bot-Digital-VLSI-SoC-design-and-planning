@@ -214,6 +214,31 @@ generates the p-, n- for transsitor drain on pand nwell regions created
 9. Hihger level metal formation (Form a second and third layer of metal interconnect using Tungsten and aluminium layers and photolitograpgry process)
 ![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/28f610c7-1ef5-4cb5-9932-c671c6fa49a7)
 
+#### Introduction to Sky130 basic layers layout and LEF using inverter
+
+![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/3d2c85c8-1b0c-4bfc-b28b-a52584506bdf)
+
+![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/ab6c1b44-b75c-4093-8977-e3ff6d9d854a)
+
+Extract spice netlist from layout
+
+![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/5251f4ff-20fe-45aa-8cd2-246a05abe692)
+
+SPICE file is created  sky130_inv.spice
+
+![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/b9854760-4292-431b-a85f-cf4f2391d1d5)
+
+Modifying spice model of inverter
+![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/b9304678-38e5-464d-ad98-256f53baeca8)
+
+
+
+
+
+
+
+
+
 
 
 
