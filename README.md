@@ -200,8 +200,29 @@ Magic showing gate mask to form gates
 
 ![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/9924a83e-0b58-4555-9aee-fdf1efa790e7)
 
-5. Lightly dropped gate formation
-![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/3fc0f12d-640a-43ed-9df2-81ef68245fed)
+5. Lightly dropped gate formation (attain the dopping profile). Two physical processes to take into account (Hot Electron Effect, Short channel effect)
+generates the p-, n- for transsitor drain on pand nwell regions created
+![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/9c8dc3a0-a538-436b-a5ab-2c7cb711e0ac)
+
+6. Source and drain formation. Using high temperature annealing. Forming p+, n+ and transition layers close to the gate   
+![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/1d6f8312-bf60-454a-91fc-bc78f8e31d16)
+
+8. From contacts and interconnect (Titanium deposit an etched with RC cleaning)
+![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/8a988b38-c099-48f7-8f99-9ba790e803fe)
+
+9. Hihger level metal formation (Form a second and third layer of metal interconnect using Tungsten and aluminium layers and photolitograpgry process)
+![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/28f610c7-1ef5-4cb5-9932-c671c6fa49a7)
+
+
+
+
+
+
+
+   
+
+
+
 
 
 
