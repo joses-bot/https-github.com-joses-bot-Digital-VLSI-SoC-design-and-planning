@@ -281,7 +281,34 @@ Renaming file to extract lef file from layout:  lef write (command)
 
 ![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/b5966b0a-84f6-4dc6-8b02-286f68777dfe)
 
-Dealing with timing libs and include new cell in synthesis modifying config.tcl
+#### Dealing with timing libs and include new cell in synthesis modifying config.tcl
+Run openlane again with modified config
+set ::env(LIB_SYNTH)   "./designs/picorv32a/src/sky130_fd_sc_hd__typical.lib"
+set ::env(LIB_FASTEST) "./designs/picorv32a/src/sky130_fd_sc_hd__fast.lib"
+set ::env(LIB_SLOWEST) "./designs/picorv32a/src/sky130_fd_sc_hd__slow.lib"
+set ::env(LIB_TYPICAL) "./designs/picorv32a/src/sky130_fd_sc_hd__typical.lib"
+
+set ::env(EXTRA_LEFS) [glob $::env(OPENLANE_ROOT)/designs/$::env(DESIGN_NAME)/src/*.lef]
+
+![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/7b92537d-3ba4-4a22-9f8f-21f314cb2235)
+
+Invoking run_synthesis again and checking timing violations
+
+![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/56d89e19-373c-4290-a5f0-ec27656f9a94)
+
+Timing modelling using delay tables
+
+Modeling using tables the delays depending on the input/ouput capacitance load. Delay tables will becomethe timing models for that particular buffer to the corresponding size
+
+![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/e8757ec9-a791-46a7-9977-c363b17d2c3d)
+
+Changing strategy parameters to reduce timing slack
+
+
+
+
+
+
 
 
 
