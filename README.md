@@ -231,6 +231,17 @@ SPICE file is created  sky130_inv.spice
 
 Modifying spice model of inverter
 ![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/b9304678-38e5-464d-ad98-256f53baeca8)
+![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/f564452d-835b-4a0a-adba-2c068a624fa1)
+
+Calculation rise time, cell rise delay
+
+![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/1a0583d1-9dc6-4ab7-8fc7-cb30935251ef)
+
+rt = 0.0418ns  rdelay = 0.037ns
+
+
+
+
 
 
 
