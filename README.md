@@ -322,8 +322,55 @@ work around floorplan
 run_placement
 ![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/3f95b1ec-6320-46dd-aa49-9da83be5331f)
 
-New inverter added shows in def file after placement
+New inverter added shows in def file after placement (def file and in magic)
 ![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/ee6f8835-91a7-4a47-b043-82dff044f167)
+
+![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/0a976c09-3b74-4c14-8591-f8a6c59590a8)
+
+#### Timing Analysis STA (Pre-insertion of lock tree STA)
+
+Basic framework consideredb- setup time (including uncertinty) Θ < T - S - SU
+![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/4778cbae-8ffc-4cb9-9df5-be85b1dce8e8)
+
+Open STA commnads:
+
+report_net -connections _18666_
+replace_cell _18666_ sky130_fd_sc_hd__buf_4`
+report_checks -from _18666_ -to _187775_ -fields {cap slew nets} -digits 4
+report_wns
+report_tns
+report_worst_slack -max
+
+SDC File commands:
+
+create_clock clk  -name sys_clk  -period 20
+create_clock [get_ports clk]  -name sys_clk  -period 20  (another variant)
+
+I/O Delay
+set_input_delay 2 -clock [get_clock clk] [all_input]
+set_output_delay 0.45 -clock [get_clock clk] [all_output]
+
+set_max_fanout 13 [current_design]
+set_load 10 [all_outputs]
+
+set_clock_transition 0.25 [get_clocks clk]  (rise & fall time)
+
+set_driving_cell -lib_cell sky130_fd_sc_hd__inv_2 -pin Y clk_master   (external driver)
+set_driving_cell -lib_cell sky130_fd_sc_hd__inv_4 -pin Y clk          (external driver)
+
+#### Clock Tree Synthesis Process  (run_cts) after succesfully ran run_floorplan, run_placement
+Goal is to reduce the clock skew and the clock crosstalk
+
+![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/34a88ce3-7af4-4e6f-9d2f-9ef4ba5f7f1a)
+
+
+
+
+
+
+
+
+
 
 
 
