@@ -364,6 +364,7 @@ Goal is to reduce the clock skew and the clock crosstalk
 ![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/34a88ce3-7af4-4e6f-9d2f-9ef4ba5f7f1a)
 
 #### run_cts is located on /OpenLane/scripts/tcl_commands/cts.tcl, and it will OpenROAD and will run TritonCTS. Some parameters can be tweak to help meeting timing
+![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/8ad7b0c5-efd9-4b4d-9023-204f351d2e6a)
 
 
 
