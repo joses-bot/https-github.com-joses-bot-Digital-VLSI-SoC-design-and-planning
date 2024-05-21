@@ -155,6 +155,70 @@ plot out vs in
 
 ![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/00b65ed3-5079-4e6e-8813-4b5028f5658b)
 
+#### CMOS Fabrication Process (16-Mask CMOS Process):
+
+1. Selecting substrat
+
+![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/f1b47a19-22f9-4ed4-a1ce-0b957ad26c55)
+
+2. Use photolotography procesure to get the pattern required (adding  mask to protect regions after exposing to UV and then remove it)
+
+![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/0a7cfee9-5c85-4172-b8b7-87ef663a0efe)
+
+etched the regions to form the patterns then remove the photoresistance layer itself and hen grow the oxide on the required portions (after putting it into a furnace) 
+and after further oxide grows creating the isolation areas to protect adjacent transistors
+
+![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/50ee5aa6-c93e-4f5d-b40f-16368f2276c0)
+
+![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/6d9c4265-42ac-4db1-9353-40c2b93860cd)
+
+3. Then create the nwell (p,mos) and pwell (nmos) regions
+
+![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/13e1e45d-b22a-4f0d-80a3-72b6453b8b4a)
+
+Then creating one by one each of the nwell and pwell areas using the same photolitography procedure
+For the pwell boron is used as ion implanatation to grow the pwell area using high energie
+
+![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/6614c3d7-5c7b-40b2-b172-6a181f41228d)
+
+Same procedure to create the nwell using phosphorous ion implantation at a higher energie
+
+![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/48a4f733-6d13-4cb8-b48e-c6c1992c4086)
+
+Then put into the furnace to difusse the wells and be ready to create the transistors
+
+![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/3df72922-d6a7-43a0-8573-a01f6750b8a2)
+
+4. Create the gate for both p and n transistors (gate determines the threshold voltage by controlling the doping concentration and oxide capacitance) and the nrepaired the quality of oxide
+   appyling a polysilicon mask 
+
+![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/ea324eef-808a-49f0-95cc-44f51872e320)
+
+![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/c2a2f89d-287a-45a7-b427-ef227f8a0674)
+
+Magic showing gate mask to form gates
+
+![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/9924a83e-0b58-4555-9aee-fdf1efa790e7)
+
+5. Lightly dropped gate formation
+![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/3fc0f12d-640a-43ed-9df2-81ef68245fed)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
