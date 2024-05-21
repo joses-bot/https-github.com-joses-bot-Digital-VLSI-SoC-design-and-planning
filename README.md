@@ -316,6 +316,19 @@ run_floorplan gives an error. basic_macro_placement command is failing since EXT
 
 ![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/79ea5d6b-cfc3-4972-b17c-0d0dd924e3d8)
 
+work around floorplan
+![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/924a0fd6-2a39-4e04-876e-f12754c1b5a2)
+
+run_placement
+![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/3f95b1ec-6320-46dd-aa49-9da83be5331f)
+
+New inverter added shows in def file after placement
+![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/ee6f8835-91a7-4a47-b043-82dff044f167)
+
+
+
+
+
 
 
 
