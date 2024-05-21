@@ -216,6 +216,7 @@ generates the p-, n- for transsitor drain on pand nwell regions created
 
 #### Introduction to Sky130 basic layers layout and LEF using inverter
 
+Showing different layers in magic
 ![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/3d2c85c8-1b0c-4bfc-b28b-a52584506bdf)
 
 ![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/ab6c1b44-b75c-4093-8977-e3ff6d9d854a)
@@ -230,6 +231,8 @@ SPICE file is created  sky130_inv.spice
 
 Modifying spice model of inverter
 ![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/b9304678-38e5-464d-ad98-256f53baeca8)
+
+
 
 
 
