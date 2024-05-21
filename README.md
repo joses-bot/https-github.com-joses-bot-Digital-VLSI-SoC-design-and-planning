@@ -408,6 +408,9 @@ A DEF file will be generated results/routing/picorv32.def Showing def file open 
 whole chip
 ![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/bd4b48bd-4599-4da7-8b66-a2673953417a)
 
+#### SPEF Extraction and GDSII Streaming
+
+Invoke post-routing STA with run_parasitics_sta
 
 
 
