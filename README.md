@@ -144,6 +144,7 @@ plot out vs in
 
 
 #### Downloading the inverter from github  https://github.com/nickson-jose/vsdstdcelldesign (showing magic tech file)
+magic -T sky130A.tech sky130_inv.mag &
 
 ![image](https://github.com/joses-bot/https-github.com-joses-bot-Digital-VLSI-SoC-design-and-planning/assets/83429049/a754a6c1-b3ec-48b8-96f9-52db2247a387)
 
